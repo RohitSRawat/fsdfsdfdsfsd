@@ -1,0 +1,77 @@
+.chart{
+    width: 40%;
+    height: auto;
+    display: flex;
+    background: white;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0px -2px 11px 0px #888888;
+}
+.datepick{
+   
+    display: flex;
+    position: absolute;
+    /* justify-content: center; */
+    background: white;
+    top: 0;
+    border: solid 1px;
+}
+.count{
+    width: 40%;
+    background: white;
+    padding: 20px;
+    box-shadow: 0px -2px 11px 0px #888888;
+}
+.ordercount h1{
+    font-size: 60px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.socialcount h3 {
+    font-size: 26px;
+    margin-top: 33px;
+    font-weight: bold;
+}
+.ordercount h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.socialcount{
+    display: flex;
+    display: flex;
+    justify-content: space-between;
+}
+.ordercount{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+}
+.dateindex{
+    display: flex;
+    align-items: center;
+}
+.dateindex h1{
+    margin-right: 20px;
+}
+.topheader{
+display: flex;
+
+justify-content: space-between;
+padding: 10px 30px;
+background: white;
+align-items: center;
+}
+#cars{
+    padding: 11px
+}
+.topheader{
+    justify-content: space-between;
+    padding: 10px 30px;
+    background: white;
+    border: solid 1px #cfcfcf;
+}
+.topheader h1{
+    font-size: 20px;
+}
